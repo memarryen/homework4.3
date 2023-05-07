@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+.firstdiv, .seconddiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+caption {
+    text-align: start;
+    font-size: xx-large;
+    font-weight: 700;
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+.th1 {
+    text-align: start;
+}
+.th1action {
+    text-align: center;
+}
+input {
+    border: 2px solid #E0E0E0;;
+    border-radius: 10px;
+    color: #EBEBEB;
+    outline: hidden;
+    text-align: start;
+}
+.id {
+    width: 210px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.title {
+    width: 510px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.creation {
+    width: 240px;    
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.search {
+    background-color: #FFD43A;
+    border-radius: 10px;
+    height: 40px;
+    width: 115px;
+    border: none;
+    text-align: center;
+}
+.secondtable {
+    border: 2px solid #DADADA;
+    border-collapse: collapse;
+}
+.th2 {
+    background-color: #F9F9F9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+td {
+    text-align: center;
+}
+.thtitle, .size2 {
+    text-align: start;
+    padding-left: 15px;
+}
+.thtitle {
+    background-color: #F9F9F9;
+}
+.size1 {
+    width: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.size2 {
+    width: 420px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.size3 {
+    width: 250px;
+}
+.size4 {
+    width: 380px;
+}
+.edit {
+    background-color: #FFD43A;
+}
+.delete {
+    background-color: #E84949;
+    color: #FFFFFF;
+} 
+.edit, .delete {
+    border-radius: 10px;
+    height: 40px;
+    width: 115px;
+    border: none;
+}
